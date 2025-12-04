@@ -43,7 +43,7 @@
              └─────────┬──────────┘
                        │
              ┌─────────▼──────────┐
-             │    tampilkan()      │
+             │    tampilkan()     │
              └─────────┬──────────┘
                        │
                   ┌────▼────┐
@@ -74,3 +74,57 @@ tampilkan() → menampilkan data
 hapus() → menghapus data
 
 ubah() → mengubah nilai mahasiswa
+
+## Penjelasan README.md
+
+## Praktikum 8 – Program Daftar Nilai Mahasiswa (OOP)
+
+Program ini dibuat untuk memenuhi tugas Praktikum 8 dengan menerapkan konsep **Object-Oriented Programming (OOP)** dalam bahasa Python.  
+Program menggunakan sebuah class bernama `NilaiMahasiswa` yang berfungsi untuk mengelola data nilai mahasiswa.
+
+---
+
+## Tujuan Program
+- Mengaplikasikan pemrograman berbasis objek (OOP)
+- Menggunakan class, atribut, dan method
+- Melakukan operasi tambah, tampilkan, hapus, dan ubah data mahasiswa
+
+---
+
+## Fitur Program
+
+### 1. `tambah(nama, nilai)`
+Menambahkan data mahasiswa baru ke dalam dictionary.
+
+### 2. `tampilkan()`
+Menampilkan semua data mahasiswa.  
+Jika belum ada data, akan muncul pesan: **"Belum ada data."**
+
+### 3. `hapus(nama)`
+Menghapus data berdasarkan nama mahasiswa.  
+Jika nama tidak ditemukan, tampil pesan error.
+
+### 4. `ubah(nama, nilai_baru)`
+Mengubah nilai mahasiswa.  
+Jika nama tidak ada dalam data, tampil pesan error.
+
+---
+
+
+---
+
+## 📘 Penjelasan Program
+
+Program ini menggunakan konsep dasar OOP:
+
+### ✔ **Class**
+`NilaiMahasiswa` digunakan untuk menyimpan dan mengelola data mahasiswa.
+
+### ✔ **Atribut**
+- `self.data` → dictionary yang menyimpan pasangan (nama: nilai)
+
+### ✔ **Method**
+- `tambah()` → memasukkan data baru
+- `tampilkan()` → menampilkan seluruh data
+- `hapus()` → menghapus data berdasarkan kunci
+- `ubah()` → memperbarui nilai mahasiswa
